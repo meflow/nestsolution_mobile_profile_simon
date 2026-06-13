@@ -69,6 +69,7 @@
     "@vitejs/plugin-react": "4.7.0",
     "sharp": "^0.35.1",
     "tailwindcss": "4.1.12",
+    "ttf2woff2": "^8.0.1",
     "vite": "6.3.5"
   },
   "peerDependencies": {
