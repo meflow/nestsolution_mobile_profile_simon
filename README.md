@@ -2,7 +2,7 @@
 
 > 17년 임상 경력을 바탕으로 의원·병원의 CS 관리, 마케팅, 경영 개선, 인력 관리를 지원하는 네스트솔루션의 모바일 프로필 페이지입니다.
 
-**라이브 URL** → [nestsolution-mobile-profile-simon.netlify.app](https://nestsolution-mobile-profile-simon.netlify.app)
+**라이브 URL** → [nestsolution-mobile-profile-simon.vercel.app](https://nestsolution-mobile-profile-simon.vercel.app)
 
 ---
 
