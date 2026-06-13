@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section className={styles.hero}>
       <div className={styles.photoWrapper}>
-        <img src={profilePhoto} alt="김상연 프로필" className={styles.photo} />
+        <img src={profilePhoto} alt="김상연 프로필" className={styles.photo} fetchPriority="high" />
       </div>
 
       <div className={styles.overlay}>

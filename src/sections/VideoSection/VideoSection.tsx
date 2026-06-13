@@ -9,6 +9,7 @@ export function VideoSection() {
         loop
         muted
         playsInline
+        preload="none"
         controlsList="nodownload"
         className={styles.video}
       >

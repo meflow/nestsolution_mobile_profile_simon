@@ -10,7 +10,7 @@ const pngs = files.filter(f => extname(f).toLowerCase() === '.png');
 for (const file of pngs) {
   const input = join(IMAGES_DIR, file);
   const output = join(IMAGES_DIR, basename(file, '.png') + '.webp');
-  await sharp(input).webp({ quality: 90, lossless: false }).toFile(output);
+  await sharp(input).webp({ quality: 75, lossless: false }).toFile(output);
   console.log(`  ${file} → ${basename(output)}`);
 }
 
