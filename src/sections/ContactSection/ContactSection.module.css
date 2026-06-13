@@ -1,0 +1,60 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px 4px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 52.667px;
+  padding: 16px 0 16.667px;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+
+.row:hover {
+  background-color: #f8fafc;
+}
+
+.divider {
+  position: absolute;
+  inset: 0;
+  border-bottom: 0.667px solid #e5e7eb;
+  pointer-events: none;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #45556c;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.valueWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.value {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1d293d;
+  white-space: nowrap;
+}
+
+.valueRight {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1d293d;
+  white-space: nowrap;
+  text-align: right;
+}

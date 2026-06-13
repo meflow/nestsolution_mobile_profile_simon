@@ -1,0 +1,130 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+}
+
+/* 회사 소개 */
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.descHeading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #1d293d;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.descText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.75px;
+  color: #314158;
+  margin: 0;
+  white-space: pre-line;
+}
+
+/* 주요 서비스 */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.servicesHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background-color: #2b7fff;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.servicesTitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1d293d;
+}
+
+.servicesList {
+  list-style: none;
+  margin: 0;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.serviceItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-height: 24px;
+}
+
+.bullet {
+  font-size: 14px;
+  line-height: 20px;
+  color: #62748e;
+  flex-shrink: 0;
+}
+
+.serviceText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #314158;
+}
+
+/* CTA */
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 14px;
+}
+
+.ctaSubheading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1d293d;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.ctaText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.75px;
+  color: #314158;
+  margin: 0;
+}
+
+.ctaHeading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1d293d;
+  margin: 0;
+  padding-top: 16px;
+  white-space: nowrap;
+}
