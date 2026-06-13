@@ -15,7 +15,7 @@
 | 스타일링 | CSS Modules + Tailwind CSS 4 |
 | UI 컴포넌트 | MUI, Radix UI, shadcn/ui |
 | 패키지 매니저 | pnpm |
-| 배포 | Netlify |
+| 배포 | Vercel |
 
 ---
 
@@ -80,11 +80,15 @@ pnpm build
 
 ## 배포
 
-Netlify에 자동 배포됩니다. `master` 브랜치에 푸시하면 빌드가 트리거됩니다.
+Vercel에 자동 배포됩니다. `master` 브랜치에 푸시하면 빌드가 트리거됩니다.
 
-```toml
-# netlify.toml
-[build]
-  command = "pnpm build"
-  publish = "dist"
+```json
+// vercel.json
+{
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
 ```
