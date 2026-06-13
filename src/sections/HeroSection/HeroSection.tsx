@@ -1,5 +1,5 @@
-import profilePhoto from '@/assets/images/profile-photo.png';
-import nestLogo from '@/assets/images/nest-logo.png';
+import profilePhoto from '@/assets/images/profile-photo.webp';
+import nestLogo from '@/assets/images/nest-logo.webp';
 import styles from './HeroSection.module.css';
 
 const SERVICE_TAGS = ['CS 관리', '마케팅', '경영 개선', '인력 관리'];
